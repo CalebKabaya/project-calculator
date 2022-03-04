@@ -33,3 +33,9 @@ header{
 .check label{
     font-size: 22px;
 }
+.submiting input{
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+}
