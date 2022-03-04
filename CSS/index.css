@@ -42,11 +42,14 @@ header {
 .check label {
     font-size: 22px;
 }
-
+.submiting{
+    padding: 17px 0;
+}
 .submiting input {
-    font-size: 20px;
+    font-size: 23px;
+    width: 20%;
     padding: 10px 10px;
-    background-color: black;
+    background-color: rgb(36, 95, 9);
     color: white;
 }
 
