@@ -7,9 +7,10 @@
 .container {
     margin: auto;
     width: 50%;
-    height: 100vh;
+    /* height: 100vh; */
     border: 3px solid green;
     padding: 10px;
+    background-color: #bbbbbb;
 
 }
 
@@ -21,11 +22,11 @@ header {
 
 .Form {
     width: 100%;
-    background-color: rgb(230, 177, 177);
+    background-color: rgb(230, 230, 230);
 }
 
 .item-inputs {
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
 .item-inputs p {
@@ -34,6 +35,8 @@ header {
 
 .item-inputs input {
     font-size: 20px;
+    width: 60%;
+    height: 6vh;
 }
 
 .check label {
