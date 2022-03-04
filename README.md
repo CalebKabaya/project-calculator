@@ -1,7 +1,9 @@
-# Portfolio
+# Akan-Name Calculator
 
-##### By Caleb Mutuku
-### It is a description of my first  project in prep at moringa school.
+
+#### By Caleb Mutuku
+
+### It is a description of Akan-Name Calculator.
 
 ## Table of Content
 
@@ -13,7 +15,10 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>This is a website  which is a porfolio about me , it provides much detail about my career and my proffesiona background and the services tha i offer. also provides sample projects that i have previously worked on.</p>
+<p>This project is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+</p>
+
+## Live Page 
 
 ## Installation
 
@@ -29,7 +34,8 @@
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
-* CSS - which was used to style the pages incuding the left aside navigation bar
+* CSS - which was used to style the pages
+* JavaScript- to make the web page more intrelactive with the user.
 
 ## Reference
 * Materialize CSS
