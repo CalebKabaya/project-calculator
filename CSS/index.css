@@ -1,41 +1,72 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 .container {
     margin: auto;
     width: 50%;
     height: 100vh;
     border: 3px solid green;
     padding: 10px;
-    
-  }
 
-header{
+}
+
+header {
     text-align: center;
     padding-top: 20px;
     font-size: 26px;
 }
-.Form{
+
+.Form {
     width: 100%;
     background-color: rgb(230, 177, 177);
 }
-.item-inputs{
+
+.item-inputs {
     padding: 25px 0;
 }
-.item-inputs p{
+
+.item-inputs p {
     font-size: 24px;
 }
-.item-inputs input{
+
+.item-inputs input {
     font-size: 20px;
 }
-.check label{
+
+.check label {
     font-size: 22px;
 }
-.submiting input{
+
+.submiting input {
     font-size: 20px;
     padding: 10px 10px;
     background-color: black;
     color: white;
+}
+
+section {
+    display: flex;
+}
+
+.colums img {
+    width: 100%;
+}
+.colums{
+    width: 40%;
+}
+.section{
+    padding-top: 50px;
+}
+.Descript{
+    padding: 14px 0;
+    border: 2px solid black;
+    margin: 20px 0;
+    background-color: rgb(230, 230, 230);
+}
+.Descript p{
+    font-size: 26px;
+    padding: 15px ;
 }
