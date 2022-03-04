@@ -17,3 +17,19 @@ header{
     padding-top: 20px;
     font-size: 26px;
 }
+.Form{
+    width: 100%;
+    background-color: rgb(230, 177, 177);
+}
+.item-inputs{
+    padding: 25px 0;
+}
+.item-inputs p{
+    font-size: 24px;
+}
+.item-inputs input{
+    font-size: 20px;
+}
+.check label{
+    font-size: 22px;
+}
