@@ -67,6 +67,7 @@ section {
 }
 .colums{
     width: 40%;
+    /* height: 20vh; */
 }
 .section{
     padding-top: 50px;
@@ -75,7 +76,9 @@ section {
     padding: 14px 0;
     border: 2px solid black;
     margin: 20px 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(83, 156, 35);
+    color: white;
+    height: 12vh;
 }
 .Descript p{
     font-size: 20px;
