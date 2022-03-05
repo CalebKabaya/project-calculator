@@ -50,7 +50,7 @@ body{
     border: 3px solid green;
     padding: 10px;
     /* background-color: #bbbbbb; */
-    background: rgba(46, 44, 43, 0.5); */
+    background: rgba(46, 44, 43, 0.5); 
 
 
 }
@@ -125,6 +125,27 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+  /* palarrax */
+  .parallax {
+    background-image: url("../images/cloth-g3ca927c26_1920.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+.parallax-inner {
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+}
+.col-3{
+    width: 100%;
+}
+.cont-parallax{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 header {
     text-align: center;
