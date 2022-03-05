@@ -10,43 +10,68 @@
 </head>
 
 <body>
+<section>
+    <div class="home">
+        <div class="logo">
+
+        </div>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#calc">Calculator</a>
+
+          </div>
+          <div class="short">
+             <h2>Akan Name Calculator</h2>
+             <button type="button">Get Name</button>
+
+          </div>
+
+    </div>
+</section>
+
+
+
+
     <section>
 
-        <div class="colums">
+        <!-- <div class="colums">
             <img src="./images/calculation-g5246239d6_1920-removebg-preview.png" alt="">
             <div class="Descript">
                 <p>Akan names are derived from Ghanian culture. Get your Akan name by filling the form above!</p>
             </div>
-        </div>
+        </div> -->
         <div class="container">
             <header>
                 <h2>Akan Name Calculator</h2>
             </header>
-            <form name="myForm" class="form" onsubmit="validate();">
+            <form name="myForm" class="form">
                 <div class="item-inputs">
                     <p>Date of Birth</p>
-                    <input type="text" name="date" id="DofBirth" placeholder="Date of Birth Eg:02"
+                    <input type="text" name="date" id="date" placeholder="Date of Birth Eg:02"
                         minlength="1" maxlength="2" required>
                 </div>
                 <div class="item-inputs">
                     <p>Month of Birth</p>
-                    <input type="text" name="month" id="MofBirth" placeholder="Month of Birth Eg:04"
+                    <input type="text" name="month" id="month" placeholder="Month of Birth Eg:04"
                         minlength="1" maxlength="2" required>
                 </div>
                 <div class="item-inputs">
                     <p>Year of Birth </p>
-                    <input type="text" name="year" id="YofBirth" placeholder="Year of Birth Eg:1998"
+                    <input type="text" name="year" id="year" placeholder="Year of Birth Eg:1998"
                         minlength="1" maxlength="4" required>
                 </div>
                 <div class="check">
                     <input type="radio" id="male" name="gender" value="Male">
                       <label for="male">Male</label>
-                      <input type="radio" id="css" name="gender" value="Female">
+                      <input type="radio" id="female" name="gender" value="Female">
                       <label for="female">Female</label><br>
 
                 </div>
                 <div class="submiting">
-                    <input type="submit" onclick="submit();" value="Submit">
+                
+                    <input type="submit" value="Submit"  onclick="calc()">
+
                 </div>
 
 
@@ -65,13 +90,13 @@
             </div>
 
         </div>
-        <div class="colums">
+        <!-- <div class="colums">
             <img src="./images/computer-g2083cd929_1920-removebg-preview.png" alt="">
             <div class="Descript">
                 <p>Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day
                     in the week they were born.</p>
             </div>
-        </div>
+        </div> -->
 
 
 
