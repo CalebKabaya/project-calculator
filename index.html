@@ -22,20 +22,20 @@
             <header>
                 <h2>Akan Name Calculator</h2>
             </header>
-            <form class="Form">
+            <form name="myForm" class="form" onsubmit="validate();">
                 <div class="item-inputs">
                     <p>Date of Birth</p>
-                    <input type="text" name="date of birth" id="DofBirth" placeholder="Date of Birth Eg:02"
+                    <input type="text" name="date" id="DofBirth" placeholder="Date of Birth Eg:02"
                         minlength="1" maxlength="2" required>
                 </div>
                 <div class="item-inputs">
                     <p>Month of Birth</p>
-                    <input type="text" name="month of birth" id="MofBirth" placeholder="Month of Birth Eg:04"
+                    <input type="text" name="month" id="MofBirth" placeholder="Month of Birth Eg:04"
                         minlength="1" maxlength="2" required>
                 </div>
                 <div class="item-inputs">
                     <p>Year of Birth </p>
-                    <input type="text" name="year of birth" id="YofBirth" placeholder="Year of Birth Eg:1998"
+                    <input type="text" name="year" id="YofBirth" placeholder="Year of Birth Eg:1998"
                         minlength="1" maxlength="4" required>
                 </div>
                 <div class="check">
@@ -46,7 +46,7 @@
 
                 </div>
                 <div class="submiting">
-                    <input type="submit"  onclick="submit();" value="Submit">
+                    <input type="submit" onclick="submit();" value="Submit">
                 </div>
 
 
@@ -68,12 +68,13 @@
         <div class="colums">
             <img src="./images/computer-g2083cd929_1920-removebg-preview.png" alt="">
             <div class="Descript">
-                <p>Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+                <p>Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day
+                    in the week they were born.</p>
             </div>
         </div>
 
 
-        
+
     </section>
     <footer>
         <div class="flag">
