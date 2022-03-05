@@ -22,11 +22,12 @@ header {
 
 .Form {
     width: 100%;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
 }
 
 .item-inputs {
     padding: 20px 0;
+    background-color: white;
 }
 
 .item-inputs p {
@@ -38,9 +39,13 @@ header {
     width: 60%;
     height: 6vh;
 }
-
+.check{
+    padding-left: 10px;
+}
 .check label {
     font-size: 22px;
+    padding-left: 6px;
+
 }
 .submiting{
     padding: 17px 0;
@@ -70,7 +75,7 @@ section {
     padding: 14px 0;
     border: 2px solid black;
     margin: 20px 0;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
 }
 .Descript p{
     font-size: 26px;
