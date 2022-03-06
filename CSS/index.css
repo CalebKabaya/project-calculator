@@ -131,8 +131,8 @@ table {
 }
 
 .parallax-inner {
-    padding-top: 6%;
-    padding-bottom: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
 }
 .col-3{
@@ -148,6 +148,25 @@ table {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+}
+#row-parallax h2,
+h3 {
+    color: white;
+    font-size: 29px;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#row-parallax {
+    justify-content: space-around;
+    justify-content: space-evenly;
+    display: flex;
+}
+.parallax h4{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 900;
 }
 
 /* form */
