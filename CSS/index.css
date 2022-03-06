@@ -221,5 +221,12 @@ Form {
     padding-top: 50px;
 }
 
-
+footer p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
 
