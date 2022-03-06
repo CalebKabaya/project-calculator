@@ -23,7 +23,7 @@
 |:--------|:-----|:------|
 |Dialog box opens| User enters required credentials| Akan name displayed|
 ## Live Page 
-
+calebkabaya.github.io/project-calculator/
 ## Installation
 
 ### Requirements
