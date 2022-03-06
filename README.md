@@ -3,7 +3,7 @@
 
 #### By Caleb Mutuku
 
-### It is a description of Akan-Name Calculator.
+### This is a description of Akan-Name Calculator.
 
 ## Table of Content
 

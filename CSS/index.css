@@ -8,7 +8,8 @@ body{
     /* background-image: url("../images/ghana-g87ba00fd5_1920.jpg"); */
 }
 .home{
-    background-image: url("../images/cape-coast-g98b3303da_1920.jpg");
+    background-image: url("../images/jeffrey-ofori-tOshpNl-sW4-unsplash.jpg");
+    background-size: cover;
     height: 100vh;
     width: 100%;
 }
@@ -46,7 +47,7 @@ body{
 
 
 .short{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 50%;
     left: 50%;
