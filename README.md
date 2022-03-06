@@ -22,8 +22,6 @@
 |Behaviour| Input| Output|
 |:--------|:-----|:------|
 |Dialog box opens| User enters required credentials| Akan name displayed|
-## Live Page 
-Click Here  [ calebkabaya.github.io/project-calculator/]
 
 ## Installation
 
