@@ -70,14 +70,27 @@ body{
     transition: 3s;
 }
 /* about */
+.border {
+    width: 100px;
+    height: 5px;
+    background: black;
+    margin: 26px auto;
+
+}
 
 .about{
     display: flex;
     /* padding: 200px 150px; */
-    padding-top: 200px;
+    padding-top: 100px;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 40px;
+}
+#about h3{
+    text-align: center;
+    font-size: 36px;
+    color: black;
+    padding-top: 170px;
 }
 .row{
     width: 50%;
