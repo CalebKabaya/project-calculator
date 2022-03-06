@@ -197,8 +197,6 @@ h3 {
     width: 50%; */
     padding-top: 100px;
     border: 3px solid green;
-    /* padding: 10px; */
-    /* background: rgba(46, 44, 43, 0.5);  */
 
 
 }
@@ -211,14 +209,11 @@ header {
 
 Form {
     width: 100%;
-    /* background-color: tomato; */
     text-align: center;
-    /* background-color: rgb(255, 255, 255); */
 }
 
 .item-inputs {
     padding: 20px 0;
-    /* background-color: white; */
 }
 
 .item-inputs p {
@@ -272,7 +267,6 @@ footer{
         display: flex;
         flex-direction:column-reverse;
         width: 100%;
-        /* background-color: tomato; */
     }
     .row{
         width: 100%;
@@ -285,12 +279,12 @@ footer{
 
 }
 
-@media screen and (max-width:626px){
+
+@media screen and (max-width:586px){
     .about{
         display: flex;
         flex-direction:column-reverse;
         width: 100%;
-        /* background-color: rgb(102, 255, 71); */
         justify-content: space-around;
         padding: 0 0px;
 
@@ -300,16 +294,91 @@ footer{
         width: 100%;
         padding: 0 0px;
         margin: 0 0;
-        /* background-color: tomato; */
         justify-content: space-around;
 
     }
     #texts-b h2,h3{
-        font-size: 25px;
+        font-size: 22px;
     }
     .submiting input {
         width: 100%;
     }
+    form{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0 0;
+        text-align: justify;
+    }
+    .item-inputs{
+        width: 100%;
 
+        
+    }
+    .item-inputs #month{
+        width: 100%;
+
+
+    }
+    input[type="text"]
+{
+    width:100%;
+    font-size: 20px;
+}
+#calc{
+    padding: 0 0px;
+
+}
+
+}
+@media screen and (max-width:390px){
+    .about{
+        display: flex;
+        flex-direction:column-reverse;
+        width: 100%;
+        justify-content: space-around;
+        padding: 0 0px;
+
+
+    }
+    .row{
+        width: 100%;
+        padding: 0 0px;
+        margin: 0 0;
+        justify-content: space-around;
+
+    }
+    #texts-b h2,h3{
+        font-size: 20px;
+    }
+    .submiting input {
+        width: 100%;
+    }
+    form{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0 0;
+        text-align: justify;
+    }
+    .item-inputs{
+        width: 100%;
+
+        
+    }
+    .item-inputs #month{
+        width: 100%;
+
+
+    }
+    input[type="text"]
+{
+    width:100%;
+    font-size: 20px;
+}
+#calc{
+   
+    padding: 0 0px;
+}
 
 }
