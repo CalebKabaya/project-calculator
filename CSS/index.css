@@ -266,3 +266,49 @@ footer{
     background-color: black;
 }
 
+@media screen and (max-width: 930px){
+    .about{
+        display: flex;
+        flex-direction:column-reverse;
+        width: 100%;
+        /* background-color: tomato; */
+    }
+    .row{
+        width: 100%;
+        padding: 0 0;
+    }
+    .submiting input {
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (max-width:626px){
+    .about{
+        display: flex;
+        flex-direction:column-reverse;
+        width: 100%;
+        /* background-color: rgb(102, 255, 71); */
+        justify-content: space-around;
+        padding: 0 0px;
+
+
+    }
+    .row{
+        width: 100%;
+        padding: 0 0px;
+        margin: 0 0;
+        /* background-color: tomato; */
+        justify-content: space-around;
+
+    }
+    #texts-b h2,h3{
+        font-size: 25px;
+    }
+    .submiting input {
+        width: 100%;
+    }
+
+
+}
